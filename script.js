@@ -2,10 +2,6 @@
 
 const meetButtons = document.querySelectorAll(".meetPage");
 
-// meetButtons[0].addEventListener("click", () => window.location.reload());
-// meetButtons[1].addEventListener("click", () => window.location.reload());
-// meetButtons[2].addEventListener("click", () => window.location.reload());
-
 
 const prices0 = document.querySelectorAll(".price")[0];
 const prices1 = document.querySelectorAll(".price")[1];
@@ -18,7 +14,6 @@ const grams2 = document.querySelectorAll(".pp")[2];
 
 
 function changePrice0 (){
-    window.location.reload();
     prices0.innerHTML = grams0.value;
 }
 
