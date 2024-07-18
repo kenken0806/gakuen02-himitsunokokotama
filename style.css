@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.tenmei{
+    background-color: red;
+    text-align:center;
+    font-family: "Reggae One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    color: black;
+}
+
+body{
+    background-color: rgb(3, 3, 3);
+}
+
+h2{
+    color: white;
+    text-align:center;
+}
+
+.setumei{
+    border: 10px double #ffffff;
+    width: 1000px;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.shoukai{
+    text-align:center;
+    color: white;
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.niku{
+    text-align:center;
+    color: bisque;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.gyu{
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.buta{
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.tori{
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 300px;
+    margin-left: 50px;
+    height: 200px;
+}
+
+.gyugyugyu{
+    display: flex;
+}
+
+.botan-box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.gyuuu{
+    margin:auto ;
+    display: block;
+    margin-top: 30px;
+    border-radius: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+.torishoukai{
+    text-align:center;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.cato{
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.sa-roin {
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+}
+ 
+ 
+.hi {
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+}
+ 
+.nikuu {
+    border-radius: 50px;
+    margin-top: 30px;
+    width: 300px;
+    margin: auto;
+    height: 300px;
+}
+ 
+.AAA {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+     
+   
+}
+ 
+.pp{
+    width: 200px;
+    height: 50px;
+    font-size: 50px;
+}
+ 
