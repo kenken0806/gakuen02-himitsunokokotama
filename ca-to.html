@@ -10,6 +10,9 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
   </style>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Noto+Serif+JP:wght@200..900&display=swap');
+    </style>
 </head>
 
 <body>
@@ -22,6 +25,9 @@
 
 <form>
   
+  <h1><p class = "kanryou">
+    カートに商品は入っています。<br>お客様情報を記入してください。</p></h1>
+
   <div class="name">
     <label class="item">お名前</label>
     <input class="inputs" type="text" name="name">
@@ -47,14 +53,32 @@
     <input class="inputs" type="email" name="email">
   </div>
   
+  <div class="name">
+    <label class="item">カード会社</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="name">
+    <label class="item">カード番号</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="name">
+    <label class="item">セキュリティーコード</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
+  <div class="name">
+    <label class="item">カード有効期限</label>
+    <input class="inputs" type="email" name="email">
+  </div>
+
   <form action="kanryou.html" method="post">
     </form>
 
   <div class="name">
     <a href="kanryou.html">
-    <input type="submit" value="予約する"></a>
-    <a href="index.html">
-    <input type="reset" value="ホーム"></a>
+    <input type="submit" value="購入を確定する"></a>
   </div>
 
 </form>
